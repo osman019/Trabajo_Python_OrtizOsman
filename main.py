@@ -1,5 +1,6 @@
 import Gestion.compras as gc
 import ui.uicompras as  uic
+import ui.uiinformes as uii
 import Gestion.globales as gg
 import modules.corefileC as mc
 
@@ -30,7 +31,7 @@ def mainmenu(op):
            case 2:
                (0)
            case 3:
-               (0)
+               uii.menuinformes(0)
            case 4:  
               print("hasta luego") 
            case _:
