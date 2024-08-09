@@ -1,7 +1,7 @@
 import Gestion.compras as gc
 import ui.uicompras as  uic
 import Gestion.globales as gg
-
+import modules.corefileC as mc
 
 def mainmenu(op):
     title = """
@@ -11,7 +11,7 @@ def mainmenu(op):
     ******************
     """
 
-    mainmenuop = "1. Comprar 2. Vender 3. informes 4.Salir"
+    mainmenuop = "1. Comprar \n2. Vender \n3. informes \n4.Salir"
 
     gg.borrar_pantalla
     if (op !=3):
@@ -40,10 +40,9 @@ def mainmenu(op):
 
 
 
-
-
-
-
+if __name__ == '__main__':
+   mc.MY_DATABASEC= 'data/data.json'
+   mainmenu(0) 
 
 
 
