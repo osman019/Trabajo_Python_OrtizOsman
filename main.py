@@ -12,7 +12,7 @@ def mainmenu(op):
     ******************
     """
 
-    mainmenuop = "1. Comprar \n2. Vender \n3. informes \n4.Salir"
+    mainmenuop = "1. Comprar \n2.Vender \n3.informes \n4.Salir"
 
     gg.borrar_pantalla
     if (op !=3):
