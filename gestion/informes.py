@@ -3,7 +3,7 @@ import os
 import modules.corefileC as mc
 import Gestion.globales as gg
 import main
-def Menupanes(op : int):
+def Menuinformes(op : int):
     title ="""
     **********************************
     *        Menu de informes        *
